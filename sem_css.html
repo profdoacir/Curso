@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>Layout Fluido</title>
+	
+	<style>
+	body, html{
+		margin:0;
+		padding:0;
+		background:#f1f1f1;
+	}
+	#container{
+		/* Largura máxima */
+		max-width:960px;
+		/* Alinha ao centro */
+		margin:0 auto;
+		background:#fff;
+		overflow:hidden;
+	}
+	#content{
+		/* Largura */
+		width:73%;
+		/* Alinha à esquerda */
+		float:left;
+	}
+	.content_inner{
+		padding:10px;
+	}
+	
+	</style>
+</head>
+
+<body>
+
+<div>
+<ul>
+   <li class='active'><a href='index.html'>Home</a></li>
+   <li><a href='produtos.html'>Produtos</a></li>
+   <li><a href='historia.html'>História</a></li>
+   <li><a href='outra.html'>Outra</a></li>
+    <li><a href='teste.html'>Outra</a></li>
+     <li><a href='sem_css.html'>sem_css</a></li>
+     <li><a href='cadastro.html'>Formulário</a></li>
+      <li><a href='modelo.html'>Modelo</a></li>
+	 <li><a href='exemplo1.html'>Exemplo</a></li>
+	   <li><a href='jquery.html'>Jquery</a></li>
+     
+</ul>
+</div>
+
+<div id="container">
+	<div id="content">
+		<div class="content_inner">
+			<h1>Meu conteúdo</h1>
+			<p>Essa <h1>Página é para mostrar a diferença</h1></p></div>
+			<p><h2>com css incorporado.</h2> </p>
+			<p><h1>sem o css externo </h1></p>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

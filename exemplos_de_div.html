@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+ 
+<html> 
+<head>
+<meta charset=utf-8/>
+	<title> Como usar DIV </title>
+	<meta name="description" content="Aprenda a usar a tag div em HTML & CSS">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+</head>
+
+<body>
+	<div id="header">
+		<p>Aqui o título, banner etc</p>
+	<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'>Home</a></li>
+   <li><a href='produtos.html'>Produtos</a></li>
+   <li><a href='historia.html'>História</a></li>
+   <li><a href='outra.html'>Outra</a></li>
+    <li><a href='teste.html'>Outra</a></li>
+     <li><a href='sem_css.html'>sem_css</a></li>
+     <li><a href='cadastro.html'>Formulário</a></li>
+      <li><a href='modelo.html'>Modelo</a></li>
+	 <li><a href='exemplo1.html'>Exemplo</a></li>
+	   <li><a href='jquery.html'>Jquery</a></li>
+     
+</ul>
+</div>
+<br><br><br><br>
+<p>Vamos agora criar nossa folha de estilos CSS.
+Nosso cabeçalho vai ocupar 80% da tela (width: 80%), terá altura de 200px (height: 200px), fundo branco e alinhado no centro.</P>
+
+<p>Já nossa região de conteúdo também terá a mesma largura, 800px de altura, cor de fundo azul e alinhado no centro também.</p>
+
+<p>E por fim, nosso rodapé também será alinhado no centro, terá 50 pixels de altura e 80% de largura da tela do seu browser,</p>
+ <p>e terá uma borda vermelha de 3 pixel de largura, com um simples texto, como foi mostrado no código HTML, que será automaticamente alinhado no centro.</p>
+
+<p>Nosso arquivo CSS, estilo.css, fica:
+#header {
+	width: 80%;
+	height: 200px;
+	margin: 0 auto;
+	background:#000;
+}
+
+#content {
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+	background: blue;
+}
+
+#foot {
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+        text-align: center;
+
+border: 3px solid red;
+}
+</p>
+<p>Note como o CSS delimitou bem as regiões das divs.</p>
+<p>(Não vamos reproduzir o efeito aqui, crie seu documento HTML, sua folha de estilo CSS e rode)</p>
+
+<p>Se quiser colocar um logotipo no seu site, coloque dentro da div de cabeçalho.</p>
+<p>O título? Lá também. E não precisa se preocupar com a posição, esses elementos vão sempre ficar no container, na <div> do cabeçalho, pois foi lá dentro que você colocou esses elementos.</p>
+
+</p>O mesmo vale para textos, imagens, links e o que mais você queria colocar no conteúdo.</p>
+<p>Basta colocar entre as tag <div> e </div> do content, que tudo ficará lá dentro, bonitinho, </p>
+<p>organizado, sem tomar espaço do cabeçalho, rodapé e ocupando no máximo 80% de largura e 800px de altura, pois  sua folha de estilo impôs essa regra.</p>
+
+
+fonte: http://www.htmlprogressivo.net/p/curso-de-css-cs-cascading-style-sheets.html
+
+menus responsive
+http://cssmenumaker.com/responsive-menus
+	</div>
+
+	<div id="foot">
+	    <p>HTML Progressivo - Todos os direitos Reservados</p>
+	</div>
+
+</body>
+
+</html>
+
